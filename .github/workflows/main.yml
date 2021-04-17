@@ -9,6 +9,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: rymndhng/release-on-push-action@master
+      - uses: rymndhng/release-on-push-action@add-input-tag-prefix
         with:
           bump_version_scheme: minor
+          tag_prefix: ""
