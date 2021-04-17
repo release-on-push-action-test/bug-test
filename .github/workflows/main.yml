@@ -12,4 +12,4 @@ jobs:
       - uses: rymndhng/release-on-push-action@add-input-tag-prefix
         with:
           bump_version_scheme: minor
-          tag_prefix: ""
+          tag_prefix: bb
