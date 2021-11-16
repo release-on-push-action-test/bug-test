@@ -9,7 +9,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: rymndhng/release-on-push-action@support-initial-release
+      - uses: rymndhng/release-on-push-action@master
         with:
           bump_version_scheme: minor
           tag_prefix: bb
